@@ -3,14 +3,24 @@
   <title> Micle Bogdan-Emanuel </title>
  </head>
  <body>
-	<h1>Nume: Micle</h1>
+	<button>Modifica Pagina</button>	
+	<h1 id="nume">Nume: Micle</h1>
 	<h2>Prenume: Bogdan Emanuel</h2>
-	<p>E-mail:Micle.Io.Bogdan@student.utcluj.ro</p>
-	<img src="Poza.jpg">
-	<ul>
+	<h3>E-mail:Micle.Io.Bogdan@student.utcluj.ro</h3>
+	<img id= "poza" src="Poza.jpg">
+	<p id="pasiuni"> Hobby-uri </p>
+	<ul id="lista">
 		<li> Muzica </li>
 		<li> Fotbal </li>
 	</ul>	
-
- </body
+	
+	<script>
+		function modifica(){
+		document.getElementById("nume").textContent="Inginer";
+		document.getElementById("lista").getElementsByTagName("li");
+		lista[0].textContent="Voluntariat";
+		lista[1].textContent="Licenta";
+		}
+	</script>
+ </body>
 </html>
